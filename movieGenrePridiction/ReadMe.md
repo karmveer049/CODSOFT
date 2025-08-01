@@ -29,3 +29,12 @@ Pipeline: TF-IDF → Logistic Regression
 Average accuracy: ~58-60%
 
 Depends on dataset balance and text quality
+🧠 Model Persistence
+After training the movie genre prediction model using Logistic Regression and TF-IDF vectorization, the model was saved as a serialized .pkl file for reuse without retraining.
+
+✅ What’s Included:
+genre_model.pkl — Pickled model pipeline (TF-IDF + Logistic Regression)
+
+label_encoder.pkl — Pickled label encoder to map predicted class indices to genre names
+
+runPicklefile.py — Python script to load the .pkl files and make real-time genre predictions from user input
