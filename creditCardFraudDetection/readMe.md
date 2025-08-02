@@ -1,10 +1,4 @@
-Here is a complete and professional `README.md` file for your **Credit Card Fraud Detection using Random Forest** project.
 
----
-
-### 📄 `README.md`
-
-```markdown
 # 💳 Credit Card Fraud Detection using Random Forest
 
 This project builds a machine learning model to detect fraudulent credit card transactions using a dataset of real-world-like transaction records. The trained model uses a **Random Forest Classifier** and can predict whether a given transaction is **fraudulent** or **legitimate**.
@@ -112,5 +106,4 @@ python predict_fraud_from_input.py
 
 **Karamveer Kumar**
 
-- A **Jupyter Notebook** version of this project for demo purposes
-```
+
